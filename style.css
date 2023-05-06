@@ -16,6 +16,70 @@ tlačítko twitter          #1da1f2
 
 
 body {
-  background-color: #bdc3c7;
-}
+    background-color: #bdc3c7;}
 
+.profil {
+    margin: 50px;
+    width: 350px;
+    height: 700px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;}
+
+.foto {
+    width: 100%;}
+
+.obsah {
+    background-color: #31363b; 
+    color: ivory;
+    width: 100%;
+    padding: 15px;}
+
+.portfolio, .facebook, .twitter {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;}
+  
+.odkazy {
+    width: 100%;
+    height: 17%;
+    background-color: #31363b;
+    padding-left: 0;
+    text-align: center;
+    text-transform: uppercase;
+    border-top: dashed;
+    border-color: lightgray;
+    }
+/*nevím, jak udělat borders v místech, kam zasahují "hovery", u nich mi border nefunguje; když zapíšu border u např. .portfolio a, tak se mi udělá border jenom kolem slov "moje portfolio", nikoliv přes celý "button"*/
+
+.portfolio:hover {
+    background-color:#e74c3c;
+    width: 85%;
+    padding: 10px;}
+
+.facebook:hover {
+    background-color:#3b5998;
+    padding: 10px;}
+.twitter:hover {
+    background-color: #1da1f2;
+    padding: 10px;}
+
+.portfolio a, .facebook a, .twitter a {
+    text-decoration: none;
+    color: white;
+    text-align: center;}
+
+.facebook, .twitter {
+    width: 40%;}
+.hlavicka {
+    position: relative;}
+.logo {
+    position: absolute;}
+.logo {
+    background-color: #b92e81;
+    border-radius: 50%;
+    right: 5%;
+    bottom: -5%;}
+
+/*nevím, jak udělat margin 0 mezi hlavickou a obsahem, furt mi tam zůstává šedý proužek - mně teda esteticky nevadí, ale nejde mi to ovládat*/
+
+  .hlavicka, .obsah, .odkazy {margin: 0;}
